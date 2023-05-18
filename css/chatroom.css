@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  #chatroom {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .logout {
+    position: center;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .messages {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 1rem;
+  }
+  
+  .others,
+  .you {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .others div,
+  .you div {
+    max-width: 80%;
+    padding: 0.8rem;
+    border-radius: 8px;
+  }
+  
+  .others div {
+    background-color: #f1f0f0;
+    color: #333;
+    margin-right: auto;
+  }
+  
+  .you div {
+    background-color: #007bff;
+    color: #fff;
+    margin-left: auto;
+    text-align: right;
+  }
+  
+  #input {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+  }
+  
+  .input {
+    border-top: 1px solid #ddd;
+    padding: 1rem;
+    background-color: #f9f9f9;
+  }
